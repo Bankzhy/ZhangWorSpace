@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp">
+
+    <!-- NAME -->
+    <TextView
+        android:id="@+id/bs_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- QTY-->
+        <TextView
+            android:id="@+id/text05qty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="QTY:"
+            android:textSize="14sp" />
+
+        <!-- データ表示用：QTY -->
+        <TextView
+            android:id="@+id/bs_qty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- PRICE-->
+
+        <TextView
+            android:id="@+id/text05price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="PRICE:"
+            android:textSize="14sp" />
+
+        <!-- データ表示用：PRICE -->
+        <TextView
+            android:id="@+id/bs_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text05TIME"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="TIME:"
+            android:textSize="14sp" />
+
+        <!-- データ表示用：PRICE -->
+        <TextView
+            android:id="@+id/bs_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
